@@ -179,7 +179,7 @@ def test_player_and_dealer_outcomes(blackjack_module, capsys):
         assert chips.sum == 100 + expected_sum
 
     run_logic( 10, 15, 'Nyolc', 'Az oszto eluszott!' , -5)
-    run_logic(5, 10 , 'Negy', 'Az oszto nyert!', -10)
+    run0_logic(5, 10 , 'Negy', 'Az oszto nyert!', -10)
     run_logic(15, 10, 'Negy', 'A jateko nyert!', 10)
     run_logic(20, 15, 'Ot', 'Az allas dontetlen!', 0)
 
