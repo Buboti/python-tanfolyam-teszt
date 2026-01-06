@@ -1,0 +1,14 @@
+@startuml
+actor Admin
+actor Pincer
+actor Vendeg
+
+Admin --> (Menut szerkeszti)
+Admin --> (Statisztika generalasa)
+Admin --> (Rendelesek szerkesztése)
+
+Pincer --> (Uj rendelesek felvitele)
+Pincer --> (Rendelesek listazasa)
+
+Vendeg --> (Visszajelzest ad)
+@enduml
